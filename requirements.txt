@@ -1,0 +1,30 @@
+# 微信公众号图片下载助手 - Python依赖包文件
+
+# Web框架
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# HTTP请求库
+requests==2.31.0
+
+# HTML解析库
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# 图片处理库
+Pillow==10.1.0
+
+# 并发处理
+futures==3.4.0
+
+# 数据处理
+urllib3==2.1.0
+chardet==5.2.0
+
+# 开发和调试工具（可选）
+# python-dotenv==1.0.0
+# flask-debugtoolbar==0.13.1
+
+# 生产环境部署（可选）
+# gunicorn==21.2.0
+# waitress==2.1.2 
