@@ -15,7 +15,7 @@ lxml==4.9.3
 Pillow==10.1.0
 
 # 并发处理
-futures==3.4.0
+# futures==3.4.0 (Python 3内置，无需安装)
 
 # 数据处理
 urllib3==2.1.0
