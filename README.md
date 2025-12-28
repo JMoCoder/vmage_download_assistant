@@ -1,6 +1,12 @@
 # 🖼️ 微信公众号图片下载助手
 
+[![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=vmage-download-assistant)](https://vmage-download-assistant.vercel.app/)
+> 🌐 **在线体验**: [https://vmage-download-assistant.vercel.app/](https://vmage-download-assistant.vercel.app/)
+
 一个专业的微信公众号文章图片提取和下载工具，支持智能筛选、批量下载和高清原图获取。
+
+## 📅 更新日志
+查看 [CHANGELOG.md](CHANGELOG.md) 获取最新更新详情。
 
 ## 🚀 快速使用指南
 
