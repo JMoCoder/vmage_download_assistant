@@ -35,8 +35,14 @@ app = Flask(__name__)
 CORS(app)  # 启用跨域请求支持
 
 # 全局配置
-DOWNLOAD_FOLDER = "downloads"  # 下载文件夹
-TEMP_FOLDER = "temp"          # 临时文件夹
+if os.environ.get('VERCEL'):
+    # Vercel环境使用/tmp目录
+    DOWNLOAD_FOLDER = "/tmp/downloads"
+    TEMP_FOLDER = "/tmp/temp"
+else:
+    # 本地环境使用当前目录
+    DOWNLOAD_FOLDER = "downloads"  # 下载文件夹
+    TEMP_FOLDER = "temp"          # 临时文件夹
 MAX_WORKERS = 5               # 最大并发下载数
 REQUEST_TIMEOUT = 30          # 请求超时时间
 MAX_IMAGE_SIZE = 50 * 1024 * 1024  # 最大图片大小 50MB
