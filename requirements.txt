@@ -9,7 +9,7 @@ requests==2.31.0
 
 # HTML解析库
 beautifulsoup4==4.12.2
-lxml==4.9.3
+# lxml==4.9.3 (代码中使用html.parser，无需lxml)
 
 # 图片处理库
 Pillow==10.1.0
